@@ -1,0 +1,442 @@
+@font-face{
+	src: url(../fonts/BrandonGrotesque-Bold.ttf);
+	font-family: BrandonGrotesque-Bold;
+}
+@font-face{
+	src: url(../fonts/BrandonGrotesque-Light.ttf);
+	font-family: BrandonGrotesque-Light;
+}
+@font-face{
+	src: url(../fonts/BrandonGrotesque-Medium.ttf);
+	font-family: BrandonGrotesque-Medium;
+}
+@font-face{
+	src: url(../fonts/BrandonGrotesque-Regular.ttf);
+	font-family: BrandonGrotesque-Regular;
+}
+@font-face{
+	src: url(../fonts/Cubano-Regular.otf);
+	font-family: Cubano-Regular;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: BrandonGrotesque-Regular;
+	font-size: 18px;
+	color: #777777;
+}
+.wrapper{
+	width: 70%;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+.wrapper2{
+	width: 65%;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 80px 0;
+}
+img{
+	width: 100%;
+}
+/* header start */
+header{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.header{
+	overflow: hidden;
+}
+.logo {
+	width: 13%;
+	float: left;
+	padding-top: 17px;
+}
+
+.menu {
+	width: 60%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-family: BrandonGrotesque-Medium;
+	font-size: 18px;
+	color: white;
+	padding: 0 14px;
+	display: block;
+	transition: .4s;
+}
+.menu ul li a:hover{
+	color: #777777;
+}
+.banner {
+	text-align: center;
+	padding-top: 100px;
+}
+.btext1{
+	font-family: BrandonGrotesque-Light;
+	font-weight: 300;
+	font-size: 32px;
+	color: white;
+}
+.btext2{
+	font-family: BrandonGrotesque-Bold;
+	font-weight: 700;
+	font-size: 66px;
+	color: white;
+	text-transform: uppercase;
+	margin-top: -10px;
+}
+.button{
+	text-align: center;
+	padding-bottom: 55px;
+}
+button{
+	background: none;
+	border: none;
+	border: 3px solid white;
+	border-radius: 5px;
+	padding: 15px 65px;
+	font-family: BrandonGrotesque-Bold;
+	font-size: 23px;
+	color: white;
+	margin-top: 40px;
+	cursor: pointer;
+}
+/* header end */
+/* web development start */
+
+.web_development .left {
+	width: 70%;
+	float: left;
+}
+h2{
+	font-family: BrandonGrotesque-Light;
+	font-weight: 300;
+	font-size: 60px;
+	color: black;
+	margin-top: 0;
+}
+h2 span{
+	font-family: BrandonGrotesque-Bold;
+	font-weight: 700;
+	font-size: 60px;
+	color: black;
+}
+.web_development .right {
+	width: 25%;
+	float: right;
+	margin-top: 7%;
+}
+/* web development end */
+/* web development start */
+.identity_branding{
+	background-color: #fafafa;
+}
+.identity_branding .left {
+	width: 30%;
+	float: left;
+	margin-top: 5%;
+}
+
+.identity_branding .right {
+	width: 64%;
+	float: right;
+}
+/* web development end */
+/* features start */
+.feateures {
+}
+
+.wrapper2 {
+}
+
+.left {
+	width: 45%;
+ 	float: left;
+ 	overflow: hidden;
+}
+.left:nth-child(even) {
+	margin-left: 10%;
+}
+.icon {
+	position: relative;
+	width: 20%;
+	float: left;
+}
+.box{
+	width: 75px;
+	height: 75px;
+	background: black;
+	border-radius: 50%
+}
+i{
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+.text {
+	width: 75%;
+	float: right;
+	margin-top: -28px;
+}
+
+.title {
+	font-family: BrandonGrotesque-Medium;
+	font-size: 22px;
+	color: #222222;
+	margin-bottom: -10px;
+}
+/* features end */
+/* testimonial start */
+.testimonial {
+	background-color: #fafafa;
+}
+.testimonial .test_head{
+	text-align: center;
+}
+.testimonial .test_head h2{
+	margin-bottom: -20px;
+}
+.testimonial .test_head .test_title{
+	font-size: 22px;
+}
+.testimonial .test{
+	overflow: hidden;
+	margin-top: 60px;
+}
+
+.float_left1{
+	width: 25%;
+	float: left;
+}
+.float_left2{
+	width: 70%;
+	float: left;
+}
+.testimonial .leftside {
+	
+}
+
+.testimonial .leftside .test_icon {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: black;
+	border-radius: 50%
+}
+.testimonial .leftside .test_icon i{
+	position: absolute;
+	color: white;
+	font-size: 120px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+.float_right1{
+	width: 70%;
+	float: right;
+}
+.float_right2{
+	width: 25%;
+	float: right;
+}
+.float{
+	float: right;
+}
+.testimonial .content{
+	box-sizing: border-box;
+	padding: 30px 30px 20px 45px;
+	background-color: white;
+	
+}
+.testimonial .rigtside_arrow{
+	position: relative;
+}
+.testimonial .rigtside_arrow:before{
+	content: '';
+	position: absolute;
+	top: 40%;
+	left: -30px;
+	border-top: 15px solid transparent;
+	border-right: 30px solid white;
+	border-bottom: 15px solid transparent;
+}
+.testimonial .leftside_arrow{
+	position: relative;
+}
+.testimonial .leftside_arrow:after{
+	content: '';
+	position: absolute;
+	top: 40%;
+	right: -30px;
+	border-top: 15px solid transparent;
+	border-left: 30px solid white;
+	border-bottom: 15px solid transparent;
+}
+.testimonial .content q {
+	font-size: 26px;
+}
+.testimonial .content .test_name {
+	font-size: 20px;
+	color: #7690c5;
+	margin-top: 8px;
+
+}
+/* testimonial end */
+/* clients start */
+.clients{
+
+}
+.clients ul{
+	overflow: hidden;
+}
+.clients ul li{
+	list-style: none;
+	float: left;
+	margin-right: 5.5%;
+}
+.clients ul li a{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+/* clients end */
+/* team start */
+.team {
+	background-color: #111111;
+}
+
+.team_text {
+	text-align: center;
+	margin-bottom: 100px;
+
+}
+.team_text h2{
+	color: white;
+	margin-bottom: -20px;
+}
+.team_text span{
+	color: white;
+}
+.team_text p{
+	font-size: 22px;
+}
+.members{
+	overflow: hidden;
+}
+.team_members {
+	width: 30%;
+	float: left;
+	margin-right: 44px;
+	display: block;
+}
+.team_members:last-child{
+	margin-right: 0;
+}
+.team_members .member_icon {
+	width: 250px;
+	height: 250px;
+	border: 5px solid white;
+	border-radius: 50%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.member_icon i{
+	position: absolute;
+	color: white;
+	font-size: 120px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.name {
+	font-family: BrandonGrotesque-Medium;
+	font-weight: 700;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.designation {
+	font-family: BrandonGrotesque-Light;
+	font-weight: 300;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+
+.social_icons {
+	overflow: hidden;
+}
+.social_icons ul{
+	margin-left: 13px;
+}
+.social_icons ul li{
+	list-style: none;
+	float: left;
+	margin: 0 5px;
+}
+.social_icons ul li a{
+	text-decoration: none;
+	display: block;
+	width: 40px;
+	height: 40px;
+	border: 3px solid white;
+	border-radius: 50%;
+	position: relative;
+}
+.social_icons ul li a i {
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	
+}
+.member_content{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: #ebebeb;
+	padding: 0 100px;
+}
+/* team end */
+/* footer start */
+.footer{
+	background-color: #7690c5;
+}
+.footer p{
+	font-family: BrandonGrotesque-Medium;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	border-top: 1px solid white;
+	padding-top: 25px;
+}
+/* footer end */
+/* 
+font-family: BrandonGrotesque-Bold;
+font-family: BrandonGrotesque-Light;
+font-family: BrandonGrotesque-Medium;
+font-family: BrandonGrotesque-Regular;
+font-family: Cubano-Regular; */
