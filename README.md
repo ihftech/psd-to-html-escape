@@ -1,4 +1,4 @@
-# pas-to-html-escape
+# psd-to-html-escape
 Learn - How to design a webpage from PSD to HTML with Ismail Hossain Fahim
 
-https://ihfahim00.github.io/pas-to-html-escape/
+https://ihfahim00.github.io/psd-to-html-escape/
