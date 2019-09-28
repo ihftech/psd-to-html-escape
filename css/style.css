@@ -385,6 +385,8 @@ i{
 
 .social_icons {
 	overflow: hidden;
+	width: 240px;
+        margin: 0 auto;
 }
 .social_icons ul{
 	margin-left: 13px;
@@ -434,9 +436,3 @@ i{
 	padding-top: 25px;
 }
 /* footer end */
-/* 
-font-family: BrandonGrotesque-Bold;
-font-family: BrandonGrotesque-Light;
-font-family: BrandonGrotesque-Medium;
-font-family: BrandonGrotesque-Regular;
-font-family: Cubano-Regular; */
